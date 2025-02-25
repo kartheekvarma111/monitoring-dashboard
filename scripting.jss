@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
         document.getElementById('mainContent').style.height = '100vh';
     }, 3000);
 });
-/* script.js */
+
 document.querySelectorAll('.btn-custom').forEach(button => {
     button.addEventListener('click', () => {
         document.getElementById('loginModal').style.display = 'flex';
